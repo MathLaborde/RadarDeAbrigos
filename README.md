@@ -2,7 +2,7 @@
 
 O **Radar de Abrigos** é uma aplicação desenvolvida para apoiar a logística de abrigos temporários durante desastres naturais, facilitando o gerenciamento e a triagem de pessoas desabrigadas.
 
-## 🚀 Sobre o Projeto
+## 🗒️ Sobre o Projeto
 
 Durante o evento **Global Solution** da FIAP, participei do desenvolvimento de uma solução inovadora com foco no enfrentamento de eventos climáticos extremos. O projeto tem como principal objetivo otimizar o processo de alocação de pessoas em abrigos, considerando critérios de capacidade, acessibilidade e localização.
 
@@ -14,14 +14,14 @@ Durante o evento **Global Solution** da FIAP, participei do desenvolvimento de u
 - API RESTful
 - Oracle Database
 
-## ⚙️ Principais Atividades
+## 📊 Principais Atividades
 
 - Desenvolvimento do back-end com Java e Spring Boot
 - Implementação de regras de negócio para triagem e alocação de pessoas
 - Integração e modelagem do banco de dados Oracle
 - Construção das APIs REST seguindo boas práticas de desenvolvimento
 
-## 📊 Funcionalidades Implementadas
+## ⚙️ Funcionalidades Implementadas
 
 ✅ Cadastro de abrigos (públicos e voluntários)  
 ✅ Cadastro de pessoas desabrigadas  
@@ -34,7 +34,7 @@ Durante o evento **Global Solution** da FIAP, participei do desenvolvimento de u
 ✅ Notificações automáticas  
 ✅ Sistema de usuários e permissões.  
 
-## 📍 Como Executar
+## ▶️  Como Executar
 
 > Este projeto utiliza Spring Boot, portanto basta ter o Java 17+ e um Oracle Database disponível para configuração.
 
