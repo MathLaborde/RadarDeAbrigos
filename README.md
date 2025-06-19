@@ -6,6 +6,27 @@ O **Radar de Abrigos** é uma aplicação desenvolvida para apoiar a logística 
 
 Durante o evento **Global Solution** da FIAP, participei do desenvolvimento de uma solução inovadora com foco no enfrentamento de eventos climáticos extremos. O projeto tem como principal objetivo otimizar o processo de alocação de pessoas em abrigos, considerando critérios de capacidade, acessibilidade e localização.
 
+## 📸 Imagens do Projeto
+> Abaixo algumas imagens que ilustram o funcionamento das principais funcionalidades do Radar de Abrigos:
+
+![Menu Principal](./imagens/menu-principal.png)
+*Figura 1: Tela inicial da aplicação com o menu principal exibindo as funcionalidades do sistema.*
+
+![Gestão de Pessoas](./imagens/gestao-pessoas.png)
+*Figura 2: Endpoints da API voltados para a gestão de pessoas.*
+
+![Gestão Abrigos](./imagens/gestao-abrigos.png)
+*Figura 3: Endpoints da API voltados para a gestão de abrigos.*
+
+![Sistema Triagem](./imagens/sistema-triagem.png)
+*Figura 4: Endpoints disponíveis para a gestão do sistema de triagem, permitindo desde a visualização da fila de prioridade até a execução de triagem automática e consulta de status.*
+
+![Relatórios](./imagens/relatorios.png)
+*Figura 5: Menu de relatórios com opções para gerar contadores por status, ocupação de abrigos e relatório detalhado de pessoas.*
+
+![Utilitários](./imagens/utilitarios.png)
+*Figura 6: Funcionalidades utilitárias disponibilizadas no sistema, abrangendo comandos para resetar interface, consultar estado operacional, acessar documentação e controlar notificações automáticas.*
+
 ## 🛠️ Tecnologias Utilizadas
 
 - Java + Spring Boot
@@ -40,10 +61,10 @@ Durante o evento **Global Solution** da FIAP, participei do desenvolvimento de u
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/radar-de-abrigos.git
+git clone https://https://github.com/MathLaborde/RadarDeAbrigos.git
 
 # Navegue até a pasta do projeto
-cd radar-de-abrigos
+cd RadarDeAbrigos
 
 # Configure o arquivo application.properties com os dados do seu Oracle Database
 # Exmeplo:
