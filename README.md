@@ -45,7 +45,24 @@ git clone https://github.com/seu-usuario/radar-de-abrigos.git
 # Navegue até a pasta do projeto
 cd radar-de-abrigos
 
-# Configure o application.properties com os dados do seu Oracle Database
+# Configure o arquivo application.properties com os dados do seu Oracle Database
+# Exmeplo:
+  spring.application.name=RadarDeAbrigos
+
+  spring.datasource.url=jdbc:oracle:thin:@localhost:{PORTA}:XE
+  spring.datasource.username={USUARIO}
+  spring.datasource.password={SENHA}
+
+  # JPA/Hibernate
+  spring.jpa.hibernate.ddl-auto=update
+  spring.jpa.show-sql=false
+  spring.jpa.properties.hibernate.format_sql=true
+  spring.jpa.open-in-view=false
+
+  # Configurações da aplicação
+  server.port=8080
+
+  spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
 
 # Execute a aplicação
 ./mvnw spring-boot:run
@@ -54,7 +71,7 @@ cd radar-de-abrigos
 
 ## 👨‍💻 Equipe
 
-Projeto desenvolvido por alunos da **FIAP** durante o evento Global Solution (onde desenvolvemos alguma solução voltada para o bem global, utilizando tecnologia).
+Projeto desenvolvido por alunos da **FIAP** durante o evento Global Solution (onde desenvolvemos soluções para problemas relacioanados a eventos globais, utilizando tecnologia).
 
 ---
 
